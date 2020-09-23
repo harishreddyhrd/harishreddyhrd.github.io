@@ -1,0 +1,18 @@
+.bg-black {
+    background-color: black;
+}
+
+.profile {
+    background-size: fill;
+}
+
+.port-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media(min-width: 1199px) {
+    .port-item {
+        padding: 3em !important;
+    }
+}

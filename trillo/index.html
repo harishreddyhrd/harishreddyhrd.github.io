@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+        <title>trillo &mdash; Your all-in-one booking app</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <header class="header">
+                <div class="logo-box">
+                    <img src="img/logo.png" alt="Trillio Logo" class="logo"/>
+                    <h1 class="logo-name">TRILLIO</h1>
+                </div>
+
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Hotels"/>
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-mail"></use>
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+                    </div>
+                    <div class="user-nav__user-box">
+                        <img src="img/user.jpg" alt="user" class="user-nav__user-photo"/>
+                        <span class="user-nav__user-name">User Name</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>>
+                                </svg>
+                                <span>Hotels</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-aircraft"></use>>
+                                </svg>
+                                <span>Flights</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>>
+                                </svg>
+                                <span>Car rentals</span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="legal">
+                        Copyright &copy; 2020 by Trillo. Designed by HARISH REDDY. Original Author Jonas.
+                    </div>
+                </nav>
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Hotel 1" class="gallery__image"/>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Hotel 2" class="gallery__image"/>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Hotel 3" class="gallery__image"/>
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">HOTEL TAJ BANJARA</h1>
+
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-outlined"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Bombay, India</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-avg">8.6</div>
+                            <div class="overview__rating-count">496 Votes</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.</p>
+                            <p class="paragraph">Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.</p>
+
+                            <ul class="list">
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Close to the beach
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Breakfast included
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Free airport shuttle
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Free Wifi
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Air Conditioned rooms
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Pets allowed
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    We speak all Languages
+                                </li>
+                                <li class="list__item">
+                                    <svg class="bullet">
+                                        <use xlink:href="img/sprite.svg#icon-chevron-with-circle-right"></use>
+                                    </svg>
+                                    Perfect for families
+                                </li>
+                            </ul>
+
+                            <div class="recommend">
+                                <div class="recommend__count">
+                                    Lucy and 3 other friends recommend this hotel
+                                </div>
+                                <div class="recommend__friends">
+                                    <img src="img/user-3.jpg" alt="Friend 3" class="recommend__image">
+                                    <img src="img/user-4.jpg" alt="Friend 4" class="recommend__image">
+                                    <img src="img/user-5.jpg" alt="Friend 5" class="recommend__image">
+                                    <img src="img/user-6.jpg" alt="Friend 6" class="recommend__image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-reviews">
+                            <figure class="review__box">
+
+                                <blockquote class="review__comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.</blockquote>
+
+                                <figcaption class="reviewer">
+                                    <img src="img/user-1.jpg" alt="" class="reviewer__image">
+                                    <div class="reviewer__user-box">
+                                        <p class="reviewer__user-name">John Cena</p>
+                                        <p class="reviewer__review-date">Jun 12th, 2020</p>
+                                    </div>
+                                    <div class="reviewer__rating">7.8</div>
+                                </figcaption>
+
+                            </figure>
+                            <figure class="review__box">
+
+                                <blockquote class="review__comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.</blockquote>
+
+                                <figcaption class="reviewer">
+                                    <img src="img/user-2.jpg" alt="" class="reviewer__image">
+                                    <div class="reviewer__user-box">
+                                        <p class="reviewer__user-name">Kim Watson</p>
+                                        <p class="reviewer__review-date">Mar 24th, 2020</p>
+                                    </div>
+                                    <div class="reviewer__rating">9.6</div>
+                                </figcaption>
+
+                            </figure>
+
+                            <button class="btn-inline">Show all <span>&rarr;</span></button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="cta">
+                      <h2 class="cta__book-now">Good News! We have 4 rooms for your selected dates</h2>
+                      <button class="btn">
+                        <span class="btn__visible">Book Now</span>
+                        <span class="btn__invisible">Only 4 rooms left</span>
+                      </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
