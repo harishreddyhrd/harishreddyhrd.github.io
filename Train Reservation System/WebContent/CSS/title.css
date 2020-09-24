@@ -1,0 +1,103 @@
+*{
+	margin:0px;
+	padding:0;
+}
+
+#logout
+{
+	padding: 5px;
+	float: right;
+	margin: -50px 0px 0px 0px;
+	background-color: #CD2027;
+}
+#sidebar{
+	position:fixed;
+	width:25%;
+	height:90%;
+	left:-25%;
+	border-radius: 0px 0px 50px 50px;
+	background-color: #1a116b;
+	color: white;
+	
+}
+#sidebar li{
+	font-size:16px;
+	background-color: #1a116b;
+	margin: 10px 1px 0px 30px ;
+	padding:2px;
+	list-style-type:none;
+	text-align: left;
+	font-family: Century Gothic;
+	font-weight:bold;
+	width: 80%;
+	float: right;
+}
+
+.toggle-btn{
+	position:absolute;
+	left:101%;
+	top:20px;
+}
+
+img{
+	position: fixed;
+	margin: -5px 5px 5px 15px;
+	width:60px;
+	height:60px;
+}
+input{
+	border-radius:6px;
+	border:1px solid black;
+	background-color:red;
+	color:#FFFFFF;
+}
+
+#title
+{
+	font-family: Century Gothic, Arial, Times New Roman;
+	background-color: #1a116b;
+	text-align:center;
+	color: white;
+	border-radius: 0px 0px 50px 50px;
+	padding: 15px;
+	box-shadow: 10px 8px 5px grey;
+}
+
+body
+{
+	
+}
+
+
+/*==================*/
+/* body
+{
+	font-family: Century Gothic, Arial, Times New Roman;
+	background-color: White;
+	background-image: url('http://c1.peakpx.com/wallpaper/62/768/59/train-tracks-railroad-railway-black-and-white-wallpaper.jpg');
+	background-size: 140% 140% ;
+	background-repeat: no-repeat;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 25px;
+}
+
+section
+{
+	background-color: #1a116b;
+	color: white;
+	box-shadow: 10px 10px 5px grey;
+	font-size: 14px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	margin-bottom: auto;
+	
+	border-width: 0px;
+	border-style: ridge;
+	border-color: #1a116b;
+	border-radius: 0px 0px  25px 25px;
+	
+	text-align: center;
+	padding: 5px;
+} */

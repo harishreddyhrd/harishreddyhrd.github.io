@@ -1,0 +1,31 @@
+body
+{
+	font-family: Century Gothic, Arial, Times New Roman;*/
+	/* background-color: White;
+	background-image: url('http://c1.peakpx.com/wallpaper/62/768/59/train-tracks-railroad-railway-black-and-white-wallpaper.jpg');
+	background-size: 140% 140% ;
+	background-repeat: no-repeat; */
+	/*box-shadow: 10px 10px 5px grey;*/
+	/*border-radius: 25px;*/
+}
+
+tableHead
+{
+	background-color: #1a116b;
+	color: white;
+	box-shadow: 10px 10px 5px grey;
+	font-size: 14px;
+	
+	/* margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	margin-bottom: auto; */
+	
+	border-width: 0px;
+	border-style: ridge;
+	border-color: #C0C0C0;
+	border-radius: 0px 0px  25px 25px;
+	
+	text-align: center;
+	padding: 5px;
+}
